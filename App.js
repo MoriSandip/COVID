@@ -7,10 +7,7 @@ import OnBoarding from "./src/screens/OnBoarding/OnBoarding";
 import Dashboard from "./src/screens/DashBoard/Dashboard";
 import FirstPage from "./src/screens/DashBoard/DrawerMenu/FirstPage";
 import SecondPage from "./src/screens/DashBoard/DrawerMenu/SecondPage";
- 
-
 const Stack = createNativeStackNavigator();
-
 const App = () => {
     return (
         <NavigationContainer>
@@ -18,32 +15,25 @@ const App = () => {
                 screenOptions={{
                     headerShown: false
                 }}
-                initialRouteName={'SplashScreen'}
-            >
+                initialRouteName={'SplashScreen'}>
                 <Stack.Screen
                     name="SplashScreen"
-                    component={SplashScreen}
-                />
+                    component={SplashScreen}/>
                  <Stack.Screen
                     name="GetStartedScreen"
-                    component={GetStartedScreen}
-                />
+                    component={GetStartedScreen}/>
                 <Stack.Screen
                     name="OnBoarding"
-                    component={OnBoarding}
-                />
-                 {/* <Stack.Screen
+                    component={OnBoarding}/>
+                 <Stack.Screen
                     name="Dashboard"
-                    component={Dashboard}
-                />
+                    component={Dashboard}/>
                 <Stack.Screen
                     name="FirstPage"
-                    component={FirstPage}
-                />
+                    component={FirstPage}/>
                 <Stack.Screen
                     name="SecondPage"
-                    component={SecondPage}
-                /> */}
+                    component={SecondPage}/>
             </Stack.Navigator>
         </NavigationContainer>
     )

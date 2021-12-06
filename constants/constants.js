@@ -1,5 +1,4 @@
 import { COLORS } from "."
-
 const register_options = [
     {
         id: 0,
@@ -10,7 +9,6 @@ const register_options = [
         label: "TUTOR"
     }
 ]
-
 const walkthrough = [
     {
         id: 0,
@@ -34,7 +32,6 @@ const walkthrough = [
         image: require("../assets/images/work.png")
     },
 ]
-
 const categories = [
     {
         id: 0,
@@ -82,13 +79,11 @@ const categories = [
         icon: require("../assets/icons/coding.png")
     },
 ]
-
 const screens = {
     home: "Home",
     search: "Search",
     profile: "Profile"
 }
-
 const bottom_tabs = [
     {
         id: 0,
@@ -106,7 +101,6 @@ const bottom_tabs = [
         icon: require("../assets/icons/profile.png")
     }
 ]
-
 export default {
     register_options,
     walkthrough,

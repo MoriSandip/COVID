@@ -1,10 +1,7 @@
-import React ,{useEffect,useState }from 'react'
+import React ,{useEffect}from 'react'
 import { View, Text, Image, StatusBar, StyleSheet } from 'react-native'
 import images from '../../../constants/images'  
 import Title from '../../components/Text/Title'
-import Svg, {
-    Use,
-  } from 'react-native-svg';
  import SvgUri from 'react-native-svg-uri';
 import ImageView from '../../components/Image/ImageView'
 import { COLORS } from '../../../constants';

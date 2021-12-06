@@ -4,8 +4,8 @@ import {
     Text,             // Renders text
     TouchableOpacity, // Pressable container
     View              // Container component
-  } from 'react-native';
-import { COLORS } from '../../../constants/theme';
+  } from 'react-native'; 
+import { COLORS } from '../../../constants';
 
 const RoundButton = ({onPress,title}) => {
     return (

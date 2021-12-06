@@ -1,23 +1,8 @@
-
 import React from 'react';
-import {
-  SafeAreaView,
-  View,
-  StyleSheet,
-  Image,
-  Text,
- 
-} from 'react-native';
-
-import {
-  DrawerContentScrollView,
-   
-} from '@react-navigation/drawer';
-import images from '../../../../constants/images';
-import { COLORS } from '../../../../constants/theme';
+import { SafeAreaView,View,StyleSheet,Image,Text, TouchableOpacity,} from 'react-native';
+import {DrawerContentScrollView} from '@react-navigation/drawer';
 import SvgUri from 'react-native-svg-uri'; 
-import svg from '../../../../constants/svg';
-import { TouchableOpacity } from 'react-native-gesture-handler';
+import { COLORS, images, svg } from '../../../../constants';
 
 const CustomSidebarMenu = (props) => {
   const BASE_PATH ='https://raw.githubusercontent.com/AboutReact/sampleresource/master/';

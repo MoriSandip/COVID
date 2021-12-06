@@ -6,17 +6,14 @@ import {
     Text,         // Renders text
     View  ,
     TouchableOpacity        // Container component
-  } from 'react-native'; 
-import SvgUri from 'react-native-svg-uri';
-import icons from '../../../constants/icons';
-import { COLORS } from '../../../constants/theme';
-import RoundButton from '../../components/Button/RoundButton';
+  } from 'react-native';  
+import { COLORS, icons } from '../../../constants'; 
 import Screen from './Screen';
 
 const OnBoarding = ({navigation}) => {
   const goDashboard = () => {
     // console.log("hy 1")
-    // navigation.navigate('Dashboard')
+    navigation.navigate('Dashboard')
   }
     return ( 
        
@@ -51,7 +48,6 @@ const styles = StyleSheet.create({
     // Header styles
     header: {
       color: '#000',
-      fontFamily: 'Avenir',
       fontSize: 30,
       fontWeight: 'bold',
       marginVertical: 15,
@@ -59,7 +55,6 @@ const styles = StyleSheet.create({
     // Text below header
     text: {
       color: '#000',
-      fontFamily: 'Avenir',
       fontSize: 18,
       marginHorizontal: 40,
       textAlign: 'center',

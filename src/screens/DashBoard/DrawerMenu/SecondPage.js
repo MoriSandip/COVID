@@ -4,7 +4,7 @@ import { View, Text } from 'react-native'
 const SecondPage = () => {
     return (
         <View>
-            <Text>ssssss</Text>
+            <Text>sssssssssdsdssss</Text>
         </View>
     )
 }

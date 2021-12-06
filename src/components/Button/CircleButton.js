@@ -1,6 +1,6 @@
 import React from 'react'
-import { View, Text, Image, TouchableOpacity } from 'react-native'
-import { COLORS } from '../../../constants/theme'
+import { View, Text, Image, TouchableOpacity } from 'react-native' 
+import { COLORS } from '../../../constants'
 
 const CircleButton = ({icon,size,tintColor,onpress}) => {
     return (

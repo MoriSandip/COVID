@@ -15,7 +15,7 @@ export const COLORS = {
     gray70: "#4C4C4C",
     gray80: "#333333",
     backgroundColor: "#2F80ED",
-    line:"#2F80ED80",
+    line:"#2F80ED",
     additionalColor4: "#C3C3C3",
     additionalColor9: "#F3F3F3",
     additionalColor11: "#F0FFFB",
@@ -33,7 +33,6 @@ export const SIZES = {
     font: 14,
     radius: 12,
     padding: 24,
-
     // font sizes
     largeTitle: 40,
     h1: 30,
@@ -46,7 +45,6 @@ export const SIZES = {
     body3: 16,
     body4: 14,
     body5: 12,
-
     // app dimensions
     width,
     height,

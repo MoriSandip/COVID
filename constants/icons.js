@@ -34,7 +34,6 @@ const google1 = require("../assets/icons/google.png")
 const fb = require("../assets/icons/fb.png")
 const apple = require("../assets/icons/apple.png")
 
-
 export default {
     apple,
     fb,

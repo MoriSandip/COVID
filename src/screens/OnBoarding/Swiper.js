@@ -5,8 +5,7 @@ import {
   ScrollView,       // Handles navigation between screens
   StyleSheet,       // CSS-like styles
   View,             // Container component
-} from 'react-native';
-import { COLORS } from '../../../constants/theme';
+} from 'react-native'; 
 import RoundButton from '../../components/Button/RoundButton';
  
 
@@ -254,7 +253,7 @@ export default class OnboardingScreens extends Component {
           {/* Render pagination */}
           {this.renderPagination()}
           {/* Render Continue or Done button */}
-          {this.renderButton(navigation)}
+          {this.renderButton}
         </View>
       );
     }

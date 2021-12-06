@@ -1,8 +1,6 @@
 import React from 'react'
-import { View, Text, StatusBar, Image, StyleSheet } from 'react-native'
-import icons from '../../../constants/icons'
-import images from '../../../constants/images'
-import { COLORS } from '../../../constants/theme'
+import { View, Text, StatusBar, Image, StyleSheet } from 'react-native' 
+import { COLORS, icons, images } from '../../../constants'
 import CircleButton from '../../components/Button/CircleButton' 
 import Title from '../../components/Text/Title'
 

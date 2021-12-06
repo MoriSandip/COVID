@@ -5,8 +5,8 @@ import {
     Text,         // Renders text
     View          // Container component
   } from 'react-native'; 
-import SvgUri from 'react-native-svg-uri';
-import { COLORS } from '../../../constants/theme'; 
+import SvgUri from 'react-native-svg-uri'; 
+import { COLORS } from '../../../constants';
 import Swiper from './Swiper';
 const Screen = ({navigation}) => {
     return (

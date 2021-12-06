@@ -7,10 +7,8 @@ import CustomSidebarMenu from './DrawerMenu/CustomSidebarMenu';
 import SvgUri from 'react-native-svg-uri';
 import { COLORS, icons, svg } from '../../../constants';
  
-
 const Stack = createStackNavigator();
 const Drawer = createDrawerNavigator();
-
 
 const NavigationDrawerStructure = (props) => {
     //Structure for the navigatin Drawer
@@ -37,13 +35,11 @@ const NavigationDrawerStructure = (props) => {
     );
   };
 
-
 function firstScreenStack({navigation}) {
     return (
       <Stack.Navigator
     screenOptions={{
-    headerShown: false
-    
+    headerShown: false    
     }}
       
        initialRouteName="FirstPage">
@@ -66,8 +62,7 @@ function firstScreenStack({navigation}) {
   }
   
 const Dashboard = ({navigation}) => {
-    return (
-       
+    return (   
       <Drawer.Navigator
         drawerContentOptions={{
           activeTintColor: COLORS.primary,
@@ -86,8 +81,7 @@ const Dashboard = ({navigation}) => {
           headerRight: () => (
             <TouchableOpacity  style={{padding:10,tintColor:COLORS.white,marginHorizontal:12}} onPress={() =>  {}}>
             <SvgUri
-       source={svg.ic_notification}
-      />
+            source={svg.ic_notification}/>
             </TouchableOpacity>
           ),
         }}
