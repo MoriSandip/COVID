@@ -1,4 +1,4 @@
-import React ,{useEffect}from 'react'
+import React, { useEffect } from 'react'
 import { View, Text, Image, StatusBar, StyleSheet } from 'react-native'
 import images from '../../../constants/images'  
 import Title from '../../components/Text/Title'
@@ -9,6 +9,7 @@ const SplashScreen = ({navigation}) => {
     useEffect(() => { 
         setTimeout(() => navigation.navigate('GetStartedScreen') , 3000);
       })
+     
     return (
         <>
            <StatusBar 
@@ -22,6 +23,7 @@ const SplashScreen = ({navigation}) => {
                  source={require('../../../assets/svg/ic_appName.svg')}
                 />  
            </View>
+            
           
            <View style={style.bottomContainer}>
                <Title title={"Made with - COVID"} color={COLORS.black} size={24} fontWeight="bold" /> 

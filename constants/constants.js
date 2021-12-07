@@ -1,4 +1,4 @@
-import { COLORS } from "."
+
 const register_options = [
     {
         id: 0,
@@ -12,21 +12,21 @@ const register_options = [
 const walkthrough = [
     {
         id: 0,
-        backgroundColor: COLORS.white,
+        backgroundColor:"#fff",
         title: "Explore Online Courses",
         sub_title: "All types of educational & professional courses available online.",
         image: require("../assets/images/work.png")
     },
     {
         id: 1,
-        backgroundColor: COLORS.white,
+        backgroundColor:"#fff",
         title: "Explore Online Courses",
         sub_title: "All types of educational & professional courses available online.",
         image: require("../assets/images/work.png")
     },
     {
         id: 2,
-        backgroundColor: COLORS.white,
+        backgroundColor:"#fff",
         title: "Explore Online Courses",
         sub_title: "All types of educational & professional courses available online.",
         image: require("../assets/images/work.png")

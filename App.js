@@ -9,7 +9,10 @@ import FirstPage from "./src/screens/DashBoard/DrawerMenu/FirstPage";
 import SecondPage from "./src/screens/DashBoard/DrawerMenu/SecondPage";
 const Stack = createNativeStackNavigator();
 const App = () => {
+    LogBox.ignoreAllLogs();
+    console.disableYellowBox = true;
     return (
+        
         <NavigationContainer>
             <Stack.Navigator
                 screenOptions={{

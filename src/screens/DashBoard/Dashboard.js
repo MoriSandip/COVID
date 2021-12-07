@@ -37,7 +37,7 @@ const NavigationDrawerStructure = (props) => {
 
 function firstScreenStack({navigation}) {
     return (
-      <Stack.Navigator
+    <Stack.Navigator
     screenOptions={{
     headerShown: false    
     }}
@@ -51,7 +51,7 @@ function firstScreenStack({navigation}) {
           headerRight: () => (
             <TouchableOpacity
               onPress={() => navigation.dispatch(DrawerActions.openDrawer())}>
-              <Image source={icons.camera} style={{tintColor:'#000'}} size={30} />
+            <Image source={icons.camera} style={{tintColor:'#000'}} size={30} />
             </TouchableOpacity>
           ),
           

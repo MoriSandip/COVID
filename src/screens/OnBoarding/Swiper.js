@@ -7,8 +7,6 @@ import {
   View,             // Container component
 } from 'react-native'; 
 import RoundButton from '../../components/Button/RoundButton';
- 
-
 // Detect screen width and height
 const { width, height } = Dimensions.get('window');
 export default class OnboardingScreens extends Component {
